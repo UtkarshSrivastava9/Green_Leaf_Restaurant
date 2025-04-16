@@ -6,10 +6,17 @@
 .app__newsletter-heading{
     text-align: center;
 }
-.app__newsletter-input{
+/* .app__newsletter-input{
     flex-direction: row;
     margin-top: 3rem;
+} */
+
+.app__newsletter-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .app__newsletter-input input{
     width: 620px;
